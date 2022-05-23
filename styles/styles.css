@@ -1,24 +1,47 @@
-h1, h2 {
-    text-align: center;
+.intro {
+  text-align: center;
+}
+
+.icons {
+  text-align: center;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+p {
+  font-size: 30px;
 }
 
 .fa {
+  display: inline;
   padding: 10px;
   font-size: 30px;
   width: 30px;
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .fa:hover {
     opacity: 0.7;
+    color: black;
+    background: white;
 }
 
 .fa-linkedin {
+  background: black;
+  color: white;
+}
+
+.fa-envelope {
+  background: black;
+  color: white;
+}
+
+
+.fa-rocket-launch {
   background: black;
   color: white;
 }
