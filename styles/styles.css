@@ -1,5 +1,7 @@
 .intro {
   text-align: center;
+  display: block;
+  margin: 10px 0;
 }
 
 .icons {
@@ -9,11 +11,15 @@
 body {
   background-image: url("../images/background.jpg");
   background-size: cover;
+  margin: 0;
 }
 
 h1 {
   color: black;
-  font-size: 300%;
+  text-align: center;
+  font-size: 100px;
+  display: block; 
+  margin: 10px 0;
 }
 
 p {
@@ -22,8 +28,9 @@ p {
 
 .fa {
   display: inline;
+  margin-top: 0%;
   padding: 10px;
-  font-size: 30px;
+  font-size: 40px;
   width: 30px;
   text-align: center;
   text-decoration: none;
@@ -53,8 +60,11 @@ p {
 
 .ninja {
   display: block;
-  margin-top: 30%;
+  margin-top: 10%;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 0%;
+  border: 0;
+  padding: 0;
   width: 30%;
 }
